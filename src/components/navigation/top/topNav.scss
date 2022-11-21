@@ -1,0 +1,42 @@
+.TopNav {
+  text-align: center;
+  .header {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    height: 20vh;
+    h1 {
+      align-self: center;
+      font-size: 5em;
+    }
+    .icon {
+      font-size: 3em;
+      align-self: center;
+      color: #1cbec9;
+    }
+  }
+  .navigation {
+    hr {
+      width: 98%;
+    }
+    .nav-items {
+      display: flex;
+      padding-left: 1em;
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        .nav-item {
+          height: 35px;
+          line-height: 35px;
+          min-width: 50px;
+          background-color: #1cbec9;
+          margin: 0 10px;
+          border-radius: 10px;
+          padding: 6px;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

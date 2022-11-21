@@ -1,0 +1,24 @@
+.SideNav {
+  text-align: center;
+  background-color: #1cbec9;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+  .hamburger {
+    align-self: center;
+    font-size: 4em;
+  }
+  .navigation {
+    hr {
+      border: 1px solid #ffffff;
+    }
+    font-size: 2em;
+    .icon {
+      margin: 1em 0;
+      &:hover {
+        color: #000000;
+        cursor: pointer;
+      }
+    }
+  }
+}
